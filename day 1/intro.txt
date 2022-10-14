@@ -1,0 +1,80 @@
+ASP.Net Core 
+
+ASP.net Core MVC - UI development
+ASP.Net Core WebAPI - Data Exchange
+ASP.Net Core EF Core
+ASP.Net API CORS 
+ASP.net Core Identity Framework - Content Security
+ASP.Net Hosting - Deployment on Azure 
+
+Small Mini project - based on all of the above
+---------------------
+Working with .Net core CLI 
+create, build and run, test app using command line
+
+
+
+
+
+
+
+
+
+
+
+
+			ASP.net Core - This is a re-written framework 
+			Purpose 
+
+----------------------------------------------------------------------------------------			ASP.net core is a result / outcome of "WEB REVOLUTION"
+
+	a. When was the first time you used Internet - World Average - 2007
+	b. Why did u use internet for during those days - Email, surfing
+	c. Where did u use internet - Home, Cyber cafe
+	d. Source of Internet - Broadband, Wifi(rare), dial up - modem
+	e. Devise used - Desktop - laptop(rare)
+
+	Thus web developers used to create the web contents accordingly - as per 	hardware and internet
+
+--------------------------------However things are differnt today ---------------
+	1. Why do u use internet for ?? - Everything
+	2. Where do u use internet ?? - Everywhere
+	3. Source of Internet - Mobile Data - this way different from Wifi/broadband
+		Speed - developer has to develop content which are lightweight
+			users carry internet - make them run behind them
+	4. Devise - Mobiles, tablets, watches, IOT devises etc..
+		Habbits - video - tilt the phone from horizontal to vertical
+			 image - zoom in - zoom out 
+	5. Competition 
+	6. Cloud and new technologies - Angular, React, Node, IOT, AI, ML etc...
+	7. ASP.Net framework was not able to create apps for above change
+		Thus MS rewrote the whole framework to make it 
+			Light, cross platform and based on all the open design patterns
+			MVC,
+			ORM(EF), 
+			REST standards(WebAPI), 
+		develope anywhere, host/use anywhere with CLI and VSCode
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
