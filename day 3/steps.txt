@@ -1,0 +1,72 @@
+
+
+
+
+
+
+
+Good Morning everyone - We will be getting started soon
+
+Todays Topic : ASP.Net Core MVC APP with EF Core and SQL Server 
+
+
+
+1. create a new database in sql server - shopMVCDB
+2. Create tables with sample data - Products 
+3. create a new asp.net core mvc app - shopMVC_EF
+4. install nuget packages for EF Core
+	Microsoft.EntityFrameworkCore.Design
+	Microsoft.EntityFrameworkCore.Tools
+	Microsoft.EntityFrameworkCore
+	Microsoft.EntityFrameworkCore.SqlServer
+5. Build the application 
+6. Tools -> Nuget Package Manager - Nuget Package Manager Console
+7.  Scaffold-DbContext "server=WIN8\NIKHILINSTANCE;database=shopMVCDB;integrated security=true" -OutputDir Models\EF -Provider Microsoft.EntityFrameworkCore.SqlServer
+
+	You can check Models folder now, it will have EF Folder and files been 	created
+
+	Every table which has a primary key will have 1 file with properties
+	1 DBContext file which performs CRUD Operations
+
+8. create MVC Conrtroller - Controller folder -> Right click -> Add new controller
+		MVC -> MVC Controller with actions using EF
+		
+		Choose the name of your tables as Model class and DBContextFile for
+		context file
+9. In the controller file, instantiate a new object of DbContext class and comment 	the constructor 
+
+
+10. check the view folder it would create a new folder with the model class name and it will have all the views which for CRUD operations
+
+11. update the layout page in shared folder
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
