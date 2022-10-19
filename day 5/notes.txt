@@ -1,0 +1,63 @@
+create database shoppingDB
+
+use shoppingDB
+
+create table products
+(
+	pId int primary key,
+	pName varchar(20),
+	pCategory varchar(20),
+	pPrice int,
+	pIsAvailable bit
+)
+insert into products values(1,'Pepsi','Cold-Drink',50,1)
+insert into products values(2,'IPhone','Electronics',150000,0)
+insert into products values(3,'AirPods','Electronics',18500,1)
+create table orders
+(
+	oId int primary key,
+	oValue int,
+	oProduct int,
+	oCustomer varchar(20),
+	oQty int,
+	constraint fk_oProduct foreign key oProduct references products
+)
+insert into orders values(501,150000,2,'Nikhil',1)
+insert into orders values(502,250,1,'Nikhil',5)
+insert into orders values(503,74000,3,'Nikhil',4)
+
+
+
+
+
+Developers role as API developer
+
+1. Develop API (we did it in a very good way already)
+2. Consume API - given by clients and other team
+	2 ways 
+
+	you can consume this api in any technology 
+		ASP.Net MVC, Angular, React, Java, some mobile app etc.... anywhere
+	every tech has their own classes, but they are based on rest standards
+		a. Fetch API (an object built into every modern browser)
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
