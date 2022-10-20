@@ -1,0 +1,29 @@
+﻿
+
+
+<script>
+    function getAccounts()
+    {
+        fetch('https://localhost:7143/api/Banking/importantacc').then(response => response.json())
+                .then(result => { 
+                    for(var i=0;i<result.length;i++)
+                    {
+                        $("table").append("<tr>" +
+                        "<td>" + result[i].accNo + "</td>" +
+                        "<td>" + result[i].accName + "</td>" +
+                        "<td>" + result[i].accType + "</td>" +
+                        "<td>" + result[i].accBalance + "</td>" +
+                        "<td>" + result[i].accIsActive + "</td>" +
+                        + "</tr>")
+                    }
+                })
+                .catch(err => { 
+                    console.log(err);
+                })
+    }
+</script>
+
+
+
+<button class="btn btn-primary" onClick="getAccounts()"> Show Accounts </button>
+<table class="table table-bordered"></table>
