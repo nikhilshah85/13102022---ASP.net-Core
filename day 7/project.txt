@@ -1,0 +1,49 @@
+	ASP.net core developer
+
+
+ASP.net MVC
+EF Core
+WebAPI  - Develop and Consume
+CORS
+Identity Framework
+
+Watch videos on our udeamy for the same and 
+-------------------------------------------------------------------------------
+
+		Try this project to review everything we learned
+
+	Create a project for Employee Management
+		employeeController
+			Home
+			About
+			Contact
+			Work Culture
+			View All Employees
+			Search Employee
+			Add Employee
+			Update Employee
+			Delete Employee
+			Photos (https://jsonplaceholder.typicode.com/photos) make api call
+	Use EF Core to generate the pages
+	Also in the same you can add API controller (WebAPI)
+
+	Below pages will need user to authenticate
+			View All Employees
+			Search Employee
+			Add Employee
+			Update Employee
+			Delete Employee
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+

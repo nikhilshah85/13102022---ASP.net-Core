@@ -1,0 +1,44 @@
+1. craete a new MVC Application with Authentication - Individual account
+2. Add a controller - Banking
+	add 4 action methods and create views for all the 4
+
+	BankingInfo
+	ContactUs
+	DownloadStatement
+	TransferFunds
+
+3. Update layout page
+
+4. in the appsetting.json, change the connection string to your server values - servername and database name 
+
+5. build the application - tools - nuget package manager - console
+
+6. Add Migrations initialSetup
+
+7. update-Database, this will create a new database (if not) as per the connection string and add lots of tables in that DB 
+
+8. In the controller use the below 2 attributes for security
+	
+	[Authorize] -(dont give access if user is not identified)
+	[AllowAnnonymous] - (give access to any1)
+
+9. run the site, check the access to pages, you will be redirected to - Login page 
+	register, confirm email link, check the database, AspNetUser table, check 	password column
+
+	login and browse
+
+10. Configure oAuth (Facebook, google, twitter, linked in, o365)
+
+	a. add the nuget package for them 
+	b. add the config in Program.cs
+           here u need to obtain ClientId and ClientSecret from provider (eg.google)
+				 AppId and AppSecret
+
+	
+
+
+
+
+
+
+

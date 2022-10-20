@@ -1,0 +1,39 @@
+Identify the user before they access the content
+
+	Username and password
+
+
+	For Developer
+		create tables for registration
+		create tables for session
+		create column to store password and secure them 
+		create pages for login, registration
+		maintain sessions etc....
+		 
+	For End User
+		self registration
+		self service for 
+			forgot password
+			change password
+			configure 2FA 
+			configure profile
+	        	use existing credentials (Facebook, google, twitter)
+
+	
+		thus there is an open Source for the same oAuth
+
+------------------------------------------------------------------------------------
+		Microsoft implements the same with ASP.net core in a name of
+		Identity Framework
+
+
+
+		
+
+
+
+
+
+
+
+
