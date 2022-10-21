@@ -1,0 +1,73 @@
+MVC Core
+EF Core
+WebAPI Core
+	Developement
+	Consume
+CORS
+Identity Framework
+----------------------------------------------------------------------------------------------
+				DI - Dependency Injection 
+
+
+As a developer - we instantiate lot of objects in our project
+	but we never - close the object 
+		Write a destructor 
+		Clear the references
+
+1. Destroying the objects (objects keeps getting created for new request)
+2. Object Reuse - share the object (with same user for multiple request-response)
+				   (with the same user for session)
+				   (with multiple user)
+
+
+
+
+
+------------ Framework says, please do not create any object from now onn
+	     framework will create the object and destroy the same 
+	    Framework will take care of shareing the object
+
+
+		DI is done in 2 Steps 
+		1. Create a new variable of the object you want to use
+		   add a constructor and take the reference of object crated by framework
+	          assign the object to your variable
+
+		run the app and look at the error, 
+		Error - Activation of controller
+
+		2. Framework will create the object with the help of configuration in Program.cs
+		There are 3 modes / methods available (to tell framework when to destroy the obj)
+
+		AddTranscient(type) - Per call - new object created for every call, and destroyed 
+					after response
+		AddScoped(type) - Per Session - new object per session, and destroyed after session 				  is over
+		AddSingleTon - 1 global obj - shared by all the user 
+
+
+25th is the last day - it will be a project day
+	which will have all the topics we have covered
+
+	MVC Core
+EF Core
+WebAPI Core
+	Developement
+	Consume
+CORS
+Identity Framework
+DI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
